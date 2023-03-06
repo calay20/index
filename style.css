@@ -1,15 +1,16 @@
 
+  
   .grid-container {
     display: grid;
     gap: 10px;
     height: auto;
-    background-color: rgb(219, 212, 212);
-    padding: 20px;
+    background-color: rgb(244, 184, 184);
+    padding: 10px;
   }
   
   .grid-item {
     
-    padding: 20px;
+    padding: 50px;
     
   }
   
@@ -30,9 +31,10 @@
     height:160px;
     width:1060px;
     border-style:double;
-    background-color: rgb(241, 37, 10);
-    border-color: rgb(17, 15, 14);
+    background-color: rgb(158, 38, 76);
+    border-color: rgb(221, 58, 49);
     border-top-right-radius: 0px;
+    
     
   }
   .head{
@@ -80,6 +82,7 @@
     text-align: center;
    
   }
+  
   .checked{
     color: rgb(224, 35, 10);
   }
@@ -102,3 +105,35 @@
       width: auto;
     }
   }
+  .skils .box
+  {
+    position:relative;
+    width: 100%;
+    display: grid ;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .skils .box h4
+{
+text-transform: uppercase;
+color:#0544ab;
+font-weight: 10px;
+}
+
+.skils .box .percent
+{
+position: relative;
+width: 100%;
+height: 10px;
+background: #e3e1e8; ;
+}
+
+.skils .box .percent div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
+}
